@@ -213,48 +213,64 @@ h2 {
     color: #F8D3EB;
 }
 
-@keyframes moveGhosts{
-    from{
+@keyframes moveGhosts {
+    from {
         transform: translate(-15%, -5%) rotate(-10deg);
     }
 
-    to{
+    to {
         transform: translate(0, 0) rotate(10deg);
     }
 }
 
-@media (max-width: 800px){
-    body{
-        padding: 12px 24px;
+@media (max-width: 800px) {
+    body {
+        padding: 22px 24px 0;
         overflow-x: hidden;
+        height: 110vh;
     }
 
-nav{
-    display: none;
-}
+    nav {
+        display: none;
+    }
 
-section{
-    flex-direction: column;
-}
+    p{
+        display: none;
+    }
 
-.container-right{
-    width: 100%;
-    justify-content: center;
-    display: flex;
-}
+    section {
+        flex-direction: column;
+    }
 
-.container-left img{
-    width: 80%;
-    right: 0;
-}
+    .container-right {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        top: -200px;
+    }
 
-.container-right-info{
-    left: auto;
-}
+    .btn-ghost{
+        display: flex;
+        top: -200px;
+    }
 
-.container-left{
-    width: 100%;
-    text-align: center;
-}
+    .container-right-info {
+        left: auto;
+    }
+
+    .container-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-right img {
+        animation: none;
+    }
+
+    .container-actions button{
+        background-repeat: no-repeat;
+        padding-right: 80px;
+        line-height: 15px;
+    }
 
 }
