@@ -8,3 +8,5 @@
 
 <img src="https://github.com/SamuelDias91/Dev-Club-Ghosts-Landing-Page/blob/main/assets/Desktop-Img.png?raw=true" />
 
+<img src="https://github.com/SamuelDias91/Dev-Club-Ghosts-Landing-Page/blob/main/assets/Mobile-img.png?raw=true" >
+
